@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/authit/authit/log"
+	"github.com/authit/web/log"
 )
 
 func Metric(increment int64, handler func(http.ResponseWriter, *http.Request)) func(http.ResponseWriter, *http.Request) {
